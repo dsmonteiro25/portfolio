@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel Monteiro - Desenvolvedor</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" type="image/png" href="/assets/images/icon.png">
+
+</head>
+<body>
+
+  <div class="bg-animation"></div>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">Daniel Monteiro</div>
+      <div class="mobile-menu">
+        <ul class="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+      <div class="menu-controls">
+        <button id="theme-toggle" title="Alternar tema">🌙</button>
+        <div id="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="hero-content">
+      <h1>Olá, eu sou Daniel</h1>
+      <p class="hero-subtitle">Criando experiências digitais incríveis</p>
+      <p class="hero-description">
+        Desenvolvedor Web e front-end em formação e apaixonado por tecnologia e inovação.
+        Especializando em criar soluções web modernas e interfaces intuitivas.
+      </p>
+      <a href="#projects" class="cta-button">Ver Meus Projetos</a>
+    </div>
+  </section>
+
+  <section id="about" class="fade-in">
+    <h2 class="section-title">Sobre Mim</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="assets/images/perfil.jpg" alt="Foto de Perfil" class="profile-img">
+      </div>
+      <div>
+        <p class="about-text">
+          Olá! Meu nome é Daniel Monteiro, sou estudante de Ciência da Computação na UFMA e tenho me dedicado ao desenvolvimento web, com foco em front-end. Tenho conhecimento em HTML, CSS, JavaScript, React e Bootstrap, e estou constantemente aprimorando minhas habilidades através de projetos práticos.
+          Gosto de transformar ideias em interfaces funcionais, limpas e responsivas.
+        </p>
+        <div class="skills">
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">HTML/CSS</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">TailwindCSS</span>
+          <span class="skill-tag">Vite</span>
+          <span class="skill-tag">Bootstrap</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2 class="section-title">Meus Projetos</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+
+        <div class="carousel-slide">
+          <img src="assets/images/clone.png" alt="Todo List" class="project-img">
+          <div class="carousel-info">
+            <h3>Netflix Clone</h3>
+            <p>Clone visual da pagina inicial e tela de login da Netflix com HTML,CSS e JS puro.</p>
+            <a href="https://github.com/dsmonteiro25/netflix-clone.git" target="_blank" class="project-link">Ver Código</a>
+          </div>
+        </div>
+
+        <div class="carousel-slide">
+          <img src="assets/images/buscador.png" alt="Buscador de Filmes" class="project-img">
+          <div class="carousel-info">
+            <h3>Buscador de Filmes</h3>
+            <p>App que consome a API TMDB e permite buscar filmes e trailers com interface moderna.</p>
+            <a href="https://github.com/dsmonteiro25/buscador-filmes" target="_blank" class="project-link">Ver Código</a>
+          </div>
+        </div>
+
+        <div class="carousel-slide">
+          <img src="/assets/images/painelclima.png" alt="Painel Clima" class="project-img">
+          <div class="carousel-info">
+            <h3>Painel Clima</h3>
+            <p>Dashboard meteorológico que consome APIs e exibe informações em tempo real.</p>
+            <a href="https://github.com/dsmonteiro25/painel-clima" target="_blank" class="project-link">Ver Código</a>
+          </div>
+        </div>
+
+        <div class="carousel-slide">
+          <img src="assets/images/future.png" alt="Tech Future 2025" class="project-img">
+          <div class="carousel-info">
+            <h3>Tech Future 2025</h3>
+            <p>Landing page sobre tecnologias futuras com design moderno e responsivo.</p>
+            <a href="https://github.com/dsmonteiro25/tech-future-2025" target="_blank" class="project-link">Ver Código</a>
+          </div>
+        </div>
+
+        <div class="carousel-slide">
+          <img src="assets/images/ecommerce.png" alt="My E-commerce" class="project-img">
+          <div class="carousel-info">
+            <h3>My E-commerce</h3>
+            <p>Loja virtual feita com React, Bootstrap e API. Possui carrinho e catálogo.</p>
+            <a href="https://github.com/dsmonteiro25/my-ecommerce" target="_blank" class="project-link">Ver Código</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in">
+    <h2 class="section-title">Vamos Conversar?</h2>
+    <p style="font-size: 1.2rem; color: #b0b3b8; margin-bottom: 2rem;">
+      Estou sempre aberto a novas oportunidades e projetos interessantes.
+    </p>
+    <div class="contact-links">
+      <a href="danielsm05862@gmail.com" class="contact-link"><i class="fas fa-envelope"></i>Email</a>
+      <a href="https://github.com/dsmonteiro25" target="_blank" class="contact-link"><i class="fab fa-github"></i>GitHub</a>
+      <a href="https://linkedin.com/in/seuusuario" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      <a href="https://www.instagram.com/danielsm_s/" target="_blank" class="contact-link"><i class="fab fa-instagram"></i>Instagram</a>
+    </div>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
