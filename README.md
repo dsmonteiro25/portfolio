@@ -47,7 +47,7 @@ Este é o meu portfólio pessoal como desenvolvedor web, criado para apresentar 
 
 ## 🔗 Acesse o Portfólio
 
-📍 **GitHub Pages**: [https://seuusuario.github.io/portfolio-daniel](https://dsmonteiro25.github.io/portfolio/)
+📍 **GitHub Pages**: [https://dsmonteiro25.github.io/portfolio-daniel](https://dsmonteiro25.github.io/portfolio/)
 
 ---
 
